@@ -1,0 +1,17 @@
+.nav {
+	padding: 2rem;
+	display: flex;
+	grid-gap: 1.5rem;
+	align-items: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.075);
+	background-color: #FAFAFA;
+
+	a {
+		font-weight: 400;
+	}
+
+	.brand {
+		font-weight: 700;
+		font-size: 1.25rem;
+	}
+}

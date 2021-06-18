@@ -1,12 +1,9 @@
 const path = require('path');
+const nextTranslate = require('next-translate');
 
-module.exports = {
-	i18n: {
-		locales: ['en', 'ar'],
-		defaultLocale: 'ar',
-		localeDetection: false,
-	},
+module.exports = nextTranslate({
 	sassOptions: {
 		includePaths: [path.join(__dirname, 'styles')],
 	},
-};
+});
+

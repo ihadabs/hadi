@@ -10,7 +10,17 @@ class MyDocument extends Document {
 		const dir = locale === 'ar' ? 'rtl' : 'ltr';
 		return (
 			<Html lang={locale} dir={dir}>
-				<Head/>
+				<Head>
+					<link rel="dns-prefetch" href="//fonts.googleapis.com" crossOrigin="true"/>
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+					<link
+						href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Harmattan:wght@400;700&display=swap"
+						rel="stylesheet"/>
+					<noscript>
+						<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+							  rel="stylesheet"/>
+					</noscript>
+				</Head>
 				<body>
 				<Main/>
 				<NextScript/>
