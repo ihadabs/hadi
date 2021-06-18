@@ -1,16 +1,20 @@
 import Head from 'next/head';
 
 interface IMeta {
-	title: string;
-	description: string;
-	keywords: string[];
+	title?: string;
+	description?: string;
+	keywords?: string[];
 }
+
+Meta.defaultProps = {
+	title: 'Hadi',
+};
 
 export default function Meta({ title, keywords, description }: IMeta) {
 	return <Head>
 		<title>{title}</title>
 		<meta name="description" content={description}/>
-		<meta name="keywords" content={keywords.join(' ')}/>
+		<meta name="keywords" content={keywords?.join(', ')}/>
 
 		{/*Twitter */}
 		<meta name="twitter:card" content={description} key="twcard"/>
