@@ -42,11 +42,21 @@ a {
 	white-space: nowrap;
 }
 
-.container {
+.pageContainer {
 	padding: 3.5rem 1.5rem 3.5rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
-	align-items: start;
+	justify-content: flex-start;
+	align-items: flex-start;
 	grid-gap: 3rem;
 }
+
+.pageTitle {
+	font-size: 3rem;
+}
+
+.quote {
+	background: #e5e5e5;
+	border-radius: 5px;
+}
+

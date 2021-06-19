@@ -3,12 +3,17 @@ import styles from '../../styles/core/Nav.module.scss';
 import useTranslation from 'next-translate/useTranslation';
 import NavItem, { INavItem } from './NavItem';
 
-export const navItems: INavItem[] = [
-	// { title: 'home', emoji: '🏠', href: '/' },
-	{ title: 'about', emoji: '😁', href: '/about' },
-	// { title: 'background', emoji: '🧭', href: '/background' },
-	{ title: 'consulting', emoji: '📡', href: '/consulting' },
-];
+interface NavItems {
+	about: INavItem;
+	consulting: INavItem;
+}
+
+export const navItemsMap: NavItems = {
+	about: { title: 'about', emoji: '😁', href: '/about' },
+	consulting: { title: 'consulting', emoji: '📡', href: '/consulting' },
+};
+
+const navItems: INavItem[] = Object.values(navItemsMap) as unknown as INavItem[];
 
 export default function Nav() {
 	const { t } = useTranslation('common');

@@ -12,11 +12,11 @@ const titleStyle: CSSProperties = {
 
 export default function Section({ title, subtitle, children }: PropsWithChildren<ISection>) {
 	return (
-		<div>
+		<section>
 			<h3 style={titleStyle}>{title}</h3>
 			<p>{subtitle}</p>
 			<div style={{ height: '0.5rem', }}/>
 			{children}
-		</div>
+		</section>
 	);
 }

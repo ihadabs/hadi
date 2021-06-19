@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-interface IMeta {
+export interface IMeta {
 	title?: string;
 	description?: string;
 	keywords?: string[];
