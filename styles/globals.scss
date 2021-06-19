@@ -26,11 +26,12 @@ a {
 }
 
 .hoverable {
-	display: flex;
 	align-items: center;
 	border: 1px solid #d4d4d4;
 	padding: 4px 12px;
 	border-radius: 8px;
+	width: auto;
+	display: inline-flex;
 
 	&:hover {
 		border: 1px solid #1e1e1e;
@@ -42,9 +43,10 @@ a {
 }
 
 .container {
-	padding: 1.5rem;
+	padding: 3.5rem 1.5rem 3.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
+	grid-gap: 3rem;
 }
