@@ -1,29 +1,27 @@
 import Link from 'next/link';
 import styles from '../../styles/core/Nav.module.scss';
 import useTranslation from 'next-translate/useTranslation';
+import NavItem, { INavItem } from './NavItem';
 
 export default function Nav() {
 	const { t } = useTranslation('common');
 
-	return <nav className={styles.nav}>
-		<Link href="/">
-			<a className={styles.brand}>
-				Hadi Albinsasd
-			</a>
-		</Link>
+	const navItems: INavItem[] = [
+		{ title: 'home', emoji: '🏠', href: '/' },
+		{ title: 'about', emoji: '😁', href: '/about' },
+		{ title: 'background', emoji: '🧭', href: '/background' },
+		{ title: 'consulting', emoji: '📡', href: '/consulting' },
+	];
 
-		<div style={{ flex: 1 }}/>
+	return <div>
+		<nav className={styles.nav}>
+			<Link href="/">
+				<a className="hoverable"><h1>{t`brand`}</h1></a>
+			</Link>
 
-		<Link href="/about">
-			<a>Home</a>
-		</Link>
+			<div style={{ flex: 1 }}/>
 
-		<Link href="/about">
-			<a>About</a>
-		</Link>
-
-		<Link href="/background">
-			<a>Background</a>
-		</Link>
-	</nav>;
+			{navItems.map((item, index) => <NavItem key={index} item={item}/>)}
+		</nav>
+	</div>;
 }

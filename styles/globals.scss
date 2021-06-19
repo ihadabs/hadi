@@ -1,0 +1,36 @@
+html,
+body {
+	font-family: 'Comfortaa', 'Tajawal', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 18px;
+}
+
+html, body, #__next {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hoverable {
+	display: flex;
+	align-items: center;
+	border: 1px solid transparent;
+	padding: 2px 8px;
+	border-radius: 8px;
+
+	&:hover {
+		border: 1px solid #d4d4d4;
+	}
+}

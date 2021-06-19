@@ -1,11 +1,10 @@
-import styles from '../styles/Home.module.css';
 import Meta from '../components/core/Meta';
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Meta title="Hadi" keywords={[]} description=""/>
-
+			Index works
 		</div>
 	);
 }

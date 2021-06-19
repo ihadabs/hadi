@@ -1,17 +1,14 @@
 .nav {
-	padding: 2rem;
+	padding: 1rem 2rem;
 	display: flex;
-	grid-gap: 1.5rem;
+	grid-gap: 1rem;
 	align-items: center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.075);
 	background-color: #FAFAFA;
+	color: #1e1e1e;
 
 	a {
-		font-weight: 400;
-	}
-
-	.brand {
-		font-weight: 700;
-		font-size: 1.25rem;
+		font-weight: 500;
+		font-size: 0.9rem;
 	}
 }
