@@ -12,7 +12,7 @@ export default function NavItem({ item: { emoji, title, href } }: { item: INavIt
 
 	return (
 		<Link href={href}>
-			<a className="hoverable">{t(title)}&ensp;{emoji}</a>
+			<a className="hoverable noWrap">{t(title)}&ensp;{emoji}</a>
 		</Link>
 	);
 }

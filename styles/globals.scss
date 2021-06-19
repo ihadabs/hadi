@@ -10,6 +10,8 @@ html, body, #__next {
 	flex-direction: column;
 	flex: 1;
 	min-height: 100%;
+	width: 100%;
+
 }
 
 * {
@@ -26,11 +28,23 @@ a {
 .hoverable {
 	display: flex;
 	align-items: center;
-	border: 1px solid transparent;
+	border: 1px solid #d4d4d4;
 	padding: 2px 8px;
 	border-radius: 8px;
 
 	&:hover {
-		border: 1px solid #d4d4d4;
+		border: 1px solid #1e1e1e;
 	}
+}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+.container {
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
 }

@@ -1,7 +1,8 @@
 .nav {
 	padding: 1rem 2rem;
 	display: flex;
-	grid-gap: 1rem;
+	flex-direction: column;
+	grid-gap: 0.5rem;
 	align-items: center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.075);
 	background-color: #FAFAFA;
@@ -11,4 +12,13 @@
 		font-weight: 500;
 		font-size: 0.9rem;
 	}
+
 }
+
+.navItems {
+	display: flex;
+	flex-direction: row;
+	grid-gap: 1rem;
+	flex-wrap: wrap;
+}
+
