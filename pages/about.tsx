@@ -3,7 +3,7 @@ import Page from '../components/shared/Page';
 
 const aboutMeta: IMeta = {
 	title: 'من هو هادي 😁',
-	description: 'Facts about Hadi Albinsaad 🤝.'
+	description: 'حقائق ومعلومات عامة عن هادي البن سعد.'
 };
 export default function About() {
 	return (

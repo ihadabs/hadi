@@ -3,7 +3,7 @@ import Page from '../components/shared/Page';
 
 const consultingMeta: IMeta = {
 	title: 'هادي | استشارة تقنية  📡',
-	description: '',
+	description: 'ودك تبدأ مشروع تقني ومو عارف وش تسوي؟ خذ لك استشارة تقنية من هادي 🚀! ',
 	keywords: ['Hadi', 'هادي', 'Tech', 'Consulting', 'استشارة', 'تقنية']
 
 };
