@@ -2,7 +2,7 @@ import { IMeta } from '../components/core/Meta';
 import Page from '../components/shared/Page';
 
 const consultingMeta: IMeta = {
-	title: '📡 هادي | استشارة تقنية',
+	title: 'هادي | استشارة تقنية  📡',
 	description: '',
 	keywords: ['Hadi', 'هادي', 'Tech', 'Consulting', 'استشارة', 'تقنية']
 

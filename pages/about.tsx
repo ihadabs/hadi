@@ -2,7 +2,7 @@ import { IMeta } from '../components/core/Meta';
 import Page from '../components/shared/Page';
 
 const aboutMeta: IMeta = {
-	title: 'Hadi | About',
+	title: 'من هو هادي 😁',
 	description: 'Facts about Hadi Albinsaad 🤝.'
 };
 export default function About() {

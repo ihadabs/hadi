@@ -6,14 +6,14 @@ import Section from '../components/shared/Section';
 import Page from '../components/shared/Page';
 
 const homeMeta: IMeta = {
-	title: 'Hadi | Home',
+	title: 'هادي | الرئيسة 🏠',
 	description: 'Hadi\' official website ^^)',
 	keywords: ['hadi', 'albinsaad', 'هادي', 'البن سعد'],
 };
 export default function Home() {
 	return (
 		<Page title="حيا الله من جانا 👋🏼" meta={homeMeta}>
-			
+
 			<Section title="خذ لك بيتين ع السريع">
 				<p style={{ display: 'flex', flexWrap: 'wrap', gridGap: '1rem' }}>
 					<span className="quote">دواؤك فيك وما تشعرُ</span>
