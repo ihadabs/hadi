@@ -6,13 +6,8 @@ export default function Footer() {
 	const { t, lang } = useTranslation('common');
 
 	return <footer className={styles.footer}>
-		{/*<a className={styles.brand}>*/}
-		{/*	<h1>&copy; 2021 {t`brand`}</h1>*/}
-		{/*</a>*/}
-
-		{/*<div style={{ flex: 1 }}/>*/}
-
-
 		<Accounts/>
+
+		<div className={styles.madeWith}>{t`made-with`}</div>
 	</footer>;
 }

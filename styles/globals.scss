@@ -29,7 +29,7 @@ a {
 	display: flex;
 	align-items: center;
 	border: 1px solid #d4d4d4;
-	padding: 2px 8px;
+	padding: 4px 12px;
 	border-radius: 8px;
 
 	&:hover {
@@ -42,9 +42,9 @@ a {
 }
 
 .container {
-	padding: 2rem 1rem;
+	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
-	align-items: center;
+	align-items: start;
 }

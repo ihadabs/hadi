@@ -15,17 +15,14 @@ export default function Nav() {
 
 	return <div>
 		<nav className={styles.nav}>
+			<Link href="/">
+				<a className="hoverable"><h1>{t`brand`}</h1></a>
+			</Link>
 
-			{/*<div style={{ flex: 1 }}/>*/}
+			<div style={{ flex: 1 }}/>
 
 			<div className={styles.navItems}>
-				<Link href="/">
-					<a className="hoverable"><h1>{t`brand`}</h1></a>
-				</Link>
-
-				<div className={styles.navItems}>
-					{navItems.map((item, index) => <NavItem key={index} item={item}/>)}
-				</div>
+				{navItems.map((item, index) => <NavItem key={index} item={item}/>)}
 			</div>
 		</nav>
 	</div>;

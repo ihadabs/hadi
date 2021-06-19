@@ -1,11 +1,13 @@
 .footer {
 	width: 100%;
-	//border-top: 1px solid #eaeaea;
 	box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.075);
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: start;
 	align-items: center;
 	padding: 1rem 2rem;
+	grid-gap: 1rem;
+	min-height: 200px;
 
 	.brand h1 {
 		display: flex;
@@ -14,9 +16,8 @@
 		line-height: 1rem;
 	}
 
-	.accounts {
-		display: flex;
-		align-items: center;
-		grid-gap: 1rem;
+	.madeWith {
+		font-size: 0.8rem;
 	}
+
 }
