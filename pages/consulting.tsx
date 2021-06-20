@@ -1,6 +1,7 @@
 import { IMeta } from '../components/core/Meta';
 import Page from '../components/shared/Page';
 import Section from '../components/shared/Section';
+import Calendly from '../components/shared/Calendly';
 
 const consultingMeta: IMeta = {
 	title: 'هادي | استشارة تقنية  📡',
@@ -12,20 +13,17 @@ const subtitle = 'شغال على مشروع وفيه جانب تقني ودك �
 export default function Consulting() {
 	return (
 		<Page meta={consultingMeta} title="استشارة تقنية 📡" subtitle={subtitle}>
-			<Section title="المتوقع من الاستشارة">
+			<Section title="المتوقع من الاستشارة 📦">
 			</Section>
 
-			<Section title="ملاحظات هامة">
+			<Section title="ملاحظات هامة 📌">
 			</Section>
 
-			<Section title="معلومات الاستشارة">
+			<Section title="معلومات الاستشارة 🎛">
 			</Section>
 
 			<Section title="للحجز 📅" subtitle="اختر اليوم والوقت اللي يناسبك وبإذن الله برد عليك في اقرب وقت 🤝.">
-
-				<div className="calendly-inline-widget" data-url="https://calendly.com/hadialbinsaad?hide_gdpr_banner=1"
-					 style={{ minWidth: '320px', height: '630px' }}/>
-				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async/>
+				{(typeof window != 'undefined') && <Calendly/>}
 			</Section>
 		</Page>
 	);
