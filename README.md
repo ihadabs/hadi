@@ -1,4 +1,4 @@
-# Hadi's Website
+# Hadi's Website [(click here to open it)](https://hadialbinsaad.com)
 
 `Hadi`:  I built this website to let people know me more, feel free to use the code as you wish. Please, don't hack my
 website. The reset is just the Next.js default readme ^^.
