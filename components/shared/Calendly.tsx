@@ -27,7 +27,7 @@ const Calendly = () => {
 		<div
 			className="calendly-inline-widget"
 			data-url="https://calendly.com/hadialbinsaad/consulting?hide_landing_page_details=1&hide_gdpr_banner=1"
-			style={{ minWidth: '400px', height: '900px' }}
+			style={{ minWidth: '300px', width: '100%', maxWidth: '800px', height: '900px' }}
 		/>
 	);
 };
