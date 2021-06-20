@@ -6,7 +6,7 @@ export interface ISection {
 }
 
 const titleStyle: CSSProperties = {
-	fontSize: '1.5rem',
+	fontSize: '1.25rem',
 	lineHeight: '1.5'
 };
 
