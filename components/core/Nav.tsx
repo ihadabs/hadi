@@ -4,13 +4,13 @@ import useTranslation from 'next-translate/useTranslation';
 import NavItem, { INavItem } from './NavItem';
 
 interface NavItems {
-	about: INavItem;
 	consulting: INavItem;
+	about: INavItem;
 }
 
 export const navItemsMap: NavItems = {
-	about: { title: 'about', emoji: '😁', href: '/about' },
 	consulting: { title: 'consulting', emoji: '📡', href: '/consulting' },
+	about: { title: 'about', emoji: '😁', href: '/about' },
 };
 
 const navItems: INavItem[] = Object.values(navItemsMap) as unknown as INavItem[];
