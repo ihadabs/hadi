@@ -14,7 +14,7 @@ export default function Section({ title, subtitle, children }: PropsWithChildren
 	return (
 		<section>
 			<h3 style={titleStyle}>{title}</h3>
-			<p>{subtitle}</p>
+			<p style={{ marginTop: '4px' }}>{subtitle}</p>
 			<div style={{ height: '0.5rem', }}/>
 			{children}
 		</section>

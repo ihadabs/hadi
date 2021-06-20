@@ -8,6 +8,17 @@ export default function Footer() {
 	return <footer className={styles.footer}>
 		<Accounts/>
 
-		<div className={styles.madeWith}>{t`made-with`}</div>
+		<div>
+			<div className={styles.madeWith}>{t`made-with`}</div>
+			<div className={styles.madeWith}>
+				بواسطة
+
+				<a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"
+				   className={`hoverable ${styles.margined}`}>Next.js</a>
+				الكود على
+				<a href="https://github.com/ihadabs/hadi" target="_blank" rel="noopener noreferrer"
+				   className={`hoverable ${styles.margined}`}>GitHub</a>
+			</div>
+		</div>
 	</footer>;
 }
