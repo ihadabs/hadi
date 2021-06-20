@@ -1,6 +1,6 @@
 import { IMeta } from '../components/core/Meta';
-import NavItem from '../components/core/NavItem';
-import { navItemsMap } from '../components/core/Nav';
+import NavItem from '../components/core/nav/NavItem';
+import { navItemsMap } from '../components/core/nav/Nav';
 import Accounts from '../components/shared/Accounts';
 import Section from '../components/shared/Section';
 import Page from '../components/shared/Page';

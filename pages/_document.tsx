@@ -16,12 +16,6 @@ class MyDocument extends Document {
 					<link
 						href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Comfortaa:wght@300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
 						rel="stylesheet"/>
-
-					<noscript>
-						<link
-							href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Comfortaa:wght@300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
-							rel="stylesheet"/>
-					</noscript>
 				</Head>
 				<body>
 				<Main/>

@@ -1,8 +1,8 @@
-import Meta from './Meta';
+import Meta from '../Meta';
 import { Props } from 'next/script';
-import Nav from './Nav';
-import styles from '../../styles/core/Layout.module.scss';
-import Footer from './Footer';
+import Nav from '../nav/Nav';
+import styles from './Layout.module.scss';
+import Footer from '../footer/Footer';
 
 export default function Layout({ children }: Props) {
 	return <div className={styles.layout}>

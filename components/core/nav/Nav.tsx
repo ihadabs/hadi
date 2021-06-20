@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../styles/core/Nav.module.scss';
+import styles from './Nav.module.scss';
 import useTranslation from 'next-translate/useTranslation';
 import NavItem, { INavItem } from './NavItem';
 

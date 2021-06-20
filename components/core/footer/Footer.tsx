@@ -1,6 +1,6 @@
-import styles from '../../styles/core/Footer.module.scss';
+import styles from './Footer.module.scss';
 import useTranslation from 'next-translate/useTranslation';
-import Accounts from '../shared/Accounts';
+import Accounts from '../../shared/Accounts';
 
 export default function Footer() {
 	const { t, lang } = useTranslation('common');
