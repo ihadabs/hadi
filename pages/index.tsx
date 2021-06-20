@@ -1,9 +1,9 @@
-import { IMeta } from '../components/core/Meta';
-import NavItem from '../components/core/nav/NavItem';
-import { navItemsMap } from '../components/core/nav/Nav';
-import Accounts from '../components/shared/Accounts';
-import Section from '../components/shared/Section';
-import Page from '../components/shared/Page';
+import { IMeta } from 'components/core/Meta';
+import NavItem from 'components/core/nav/NavItem';
+import { navItemsMap } from 'components/core/nav/Nav';
+import Accounts from 'components/shared/Accounts';
+import Section from 'components/shared/Section';
+import Page from 'components/shared/Page';
 
 const homeMeta: IMeta = {
 	title: 'هادي | الرئيسة 🏠',

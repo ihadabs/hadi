@@ -1,5 +1,5 @@
-import { IMeta } from '../components/core/Meta';
-import Page from '../components/shared/Page';
+import { IMeta } from 'components/core/Meta';
+import Page from 'components/shared/Page';
 
 const aboutMeta: IMeta = {
 	title: 'من هو هادي 😁',

@@ -1,8 +1,8 @@
-import { IMeta } from '../components/core/Meta';
-import Page from '../components/shared/Page';
-import Section from '../components/shared/Section';
-import Calendly from '../components/shared/Calendly';
-import List from '../components/shared/List';
+import { IMeta } from 'components/core/Meta';
+import Page from 'components/shared/Page';
+import Section from 'components/shared/Section';
+import Calendly from 'components/shared/Calendly';
+import List from 'components/shared/List';
 
 const consultingMeta: IMeta = {
 	title: 'هادي | استشارة تقنية  📡',
