@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hadialbinsaad.com
+
+# Sitemaps
+Sitemap: https://hadialbinsaad.com/sitemap.xml
