@@ -9,6 +9,8 @@ class MyDocument extends Document {
 		const { locale } = this.props.__NEXT_DATA__;
 		const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
+		// @ts-ignore
+		// @ts-ignore
 		return (
 			<Html lang={locale} dir={dir}>
 				<Head>
@@ -29,6 +31,35 @@ class MyDocument extends Document {
 						 gtag('config', 'G-H09VYEZ3MD');
 					`
 					}}/>
+
+					{/* Structured Data */}
+					<script
+						type="application/ld+json"
+						dangerouslySetInnerHTML={{
+							__html: JSON.stringify({
+								'@context': 'https://schema.org/',
+								'@type': 'Person',
+								'givenName': 'Hadi',
+								'familyName': 'Albinsaad',
+								'name': 'Hadi Albinsaad',
+								'additionalName': 'Hadi Albinsaad',
+								'affiliation': {
+									'@context': 'https://schema.org',
+									'@type': 'Organization',
+									'url': 'https://axenda.io',
+									'name': 'Axenda',
+									'legalName': 'Axenda',
+									'email': 'info@axenda.io',
+									'logo': 'https://axenda.io/assets/logos/axenda-logo.svg',
+									'foundingDate': '2020-3-17',
+									'founder': 'Hadi Albinsaad'
+								},
+								'jobTitle': 'Software Engineer',
+								'image': 'https://hadialbinsaad.com/avatar',
+								'email': 'hadi.albinsaad@gmail.com',
+							})
+						}}
+					/>
 				</Head>
 				<body>
 				<Main/>
