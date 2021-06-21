@@ -20,7 +20,7 @@ module.exports = nextTranslate({
 					},
 					{
 						key: 'Cache-Control',
-						value: 's-maxage=1, stale-while-revalidate=2592000'
+						value: 'public, s-maxage=1, stale-while-revalidate=2592000'
 					}
 				],
 			},
