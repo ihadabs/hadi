@@ -9,5 +9,22 @@ module.exports = nextTranslate({
 			path.join(__dirname, 'components')
 		],
 	},
+	async headers() {
+		return [
+			{
+				source: '/(.*)',
+				headers: [
+					{
+						key: 'X-DNS-Prefetch-Control',
+						value: 'on'
+					},
+					{
+						key: 'Cache-Control',
+						value: 's-maxage=1, stale-while-revalidate=2592000'
+					}
+				],
+			},
+		];
+	},
 });
 
