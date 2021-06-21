@@ -7,7 +7,7 @@ import List from 'components/shared/List';
 const consultingMeta: IMeta = {
 	title: 'هادي | استشارة تقنية  📡',
 	description: 'ودك تبدأ مشروع تقني ومو عارف وش تسوي؟ خذ لك استشارة تقنية من هادي 🚀! ',
-	keywords: ['Hadi', 'هادي', 'Tech', 'Consulting', 'استشارة', 'تقنية']
+	keywords: ['Hadi', 'هادي', 'Tech', 'Consulting', 'استشارة', 'تقنية', 'البن', 'سعد', 'Albinsaad']
 };
 
 const consultingQuestions: string[] = [
@@ -28,7 +28,7 @@ const subtitle = 'شغال على مشروع وفيه جانب تقني ودك �
 export default function Consulting() {
 	return (
 		<Page meta={consultingMeta} title="استشارة تقنية 📡" subtitle={subtitle}>
-			<Section title="المتوقع من الاستشارة 📦" subtitle="بإذن الله بحاول أجاوب على تساؤلاتك مثل:">
+			<Section title="المتوقع من الاستشارة 📦" subtitle="بإذن الله رح أجاوب على تساؤلاتك، مثل:">
 				<List items={consultingQuestions}/>
 			</Section>
 
