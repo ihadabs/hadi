@@ -17,8 +17,8 @@ export default function Meta({ title, keywords, description }: IMeta) {
 		<meta name="keywords" content={keywords?.join(', ')}/>
 
 		{/*Twitter */}
+		<meta name="twitter:card" content="summary" key="twcard"/>
 		<meta name="twitter:title" content={title}/>
-		<meta name="twitter:card" content={description} key="twcard"/>
 		<meta name="twitter:description" content={description}/>
 		<meta name="twitter:url" content="https://hadialbinsaad.com"/>
 		<meta name="twitter:creator" content="@HadiAlbinsaad" key="twhandle"/>
