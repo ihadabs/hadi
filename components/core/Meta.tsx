@@ -17,15 +17,20 @@ export default function Meta({ title, keywords, description }: IMeta) {
 		<meta name="keywords" content={keywords?.join(', ')}/>
 
 		{/*Twitter */}
+		<meta name="twitter:title" content={title}/>
 		<meta name="twitter:card" content={description} key="twcard"/>
+		<meta name="twitter:description" content={description}/>
+		<meta name="twitter:url" content="https://hadialbinsaad.com"/>
 		<meta name="twitter:creator" content="@HadiAlbinsaad" key="twhandle"/>
+		<meta name="twitter:image" content="https://hadialbinsaad.com/avatar.png"/>
 
 		{/* Open Graph */}
+		<meta property="og:type" content="website"/>
 		<meta property="og:title" content={title} key="ogtitle"/>
 		<meta property="og:description" content={description} key="ogdesc"/>
-		<meta property="og:url" content="https://hadialbinsaad.com" key="ogurl"/>
 		<meta property="og:site_name" content="Hadi Albinsaad" key="ogsitename"/>
-		{/*<meta property="og:image" content={previewImage} key="ogimage"/>*/}
+		<meta property="og:url" content="https://hadialbinsaad.com" key="ogurl"/>
+		<meta property="og:image" content="https://hadialbinsaad.com/avatar.png"/>
 
 		<link rel="icon" href="/favicon.ico"/>
 

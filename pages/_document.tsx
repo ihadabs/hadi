@@ -19,7 +19,7 @@ const enStructuredData = {
 		'founder': 'Hadi Albinsaad'
 	},
 	'jobTitle': 'Software Engineer',
-	'image': 'https://hadialbinsaad.com/avatar',
+	'image': 'https://hadialbinsaad.com/avatar.png',
 	'email': 'hadi.albinsaad@gmail.com',
 };
 const arStructuredData = {
@@ -41,7 +41,7 @@ const arStructuredData = {
 		'founder': 'هادي البن سعد'
 	},
 	'jobTitle': 'مهندس برمجيات',
-	'image': 'https://hadialbinsaad.com/avatar',
+	'image': 'https://hadialbinsaad.com/avatar.png',
 	'email': 'hadi.albinsaad@gmail.com',
 };
 
