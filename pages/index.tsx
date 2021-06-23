@@ -6,9 +6,10 @@ import Section from 'components/shared/Section';
 import Page from 'components/shared/Page';
 
 const homeMeta: IMeta = {
-	title: 'هادي | الرئيسة 🏠',
+	title: 'هادي البن سعد 🏠',
 	description: 'الموقع الرسمي لهادي البن سعد.',
-	keywords: ['hadi', 'albinsaad', 'هادي', 'سعد', 'البن', 'البنسعد', 'استشارة', 'تقنية'],
+	keywords: ['هادي البن سعد', 'هادي', 'سعد', 'البن', 'البنسعد', 'استشارة', 'تقنية',
+		'hadi', 'albinsaad', 'hadi albinsaad', 'axenda', 'اكسندا'],
 };
 export default function Home() {
 	return (
