@@ -1,7 +1,7 @@
 module.exports = {
 	siteUrl: process.env.SITE_URL || 'https://hadialbinsaad.com',
 	generateRobotsTxt: true,
-	exclude: ['/ar*', '/en*'],
+	exclude: ['/ar*', '/en*', '/500*', '/404*'],
 	alternateRefs: [
 		{
 			href: 'https://hadialbinsaad.com/ar',
