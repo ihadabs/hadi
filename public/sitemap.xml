@@ -1,36 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <url>
-        <loc>https://hadialbinsaad.com</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-06-23T01:21:01.984Z</lastmod>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://hadialbinsaad.com/ar"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hadialbinsaad.com/en"/>
-    </url>
-    <url>
-        <loc>https://hadialbinsaad.com/500</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-06-23T01:21:01.984Z</lastmod>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://hadialbinsaad.com/ar/500"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hadialbinsaad.com/en/500"/>
-    </url>
-    <url>
-        <loc>https://hadialbinsaad.com/about</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-06-23T01:21:01.984Z</lastmod>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://hadialbinsaad.com/ar/about"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hadialbinsaad.com/en/about"/>
-    </url>
-    <url>
-        <loc>https://hadialbinsaad.com/consulting</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2021-06-23T01:21:01.984Z</lastmod>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://hadialbinsaad.com/ar/consulting"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hadialbinsaad.com/en/consulting"/>
-    </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap><loc>https://hadialbinsaad.com/sitemap-0.xml</loc></sitemap>
+</sitemapindex>
