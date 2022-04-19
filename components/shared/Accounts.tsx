@@ -5,7 +5,7 @@ const accounts: IAccount[] = [
 	{
 		platform: 'linkedIn',
 		logo: '/accounts/linkedin.svg',
-		link: 'https://linkedin.com/in/hadi-albinsaad',
+		link: 'https://www.linkedin.com/in/hadi-albinsaad/',
 	},
 	{
 		platform: 'gitHub',
@@ -20,7 +20,7 @@ const accounts: IAccount[] = [
 	{
 		platform: 'email',
 		logo: '/accounts/email.svg',
-		link: 'mailto:hadi.albinsaad@gmail.com',
+		link: 'mailto:hey@hadi.gg',
 	},
 ];
 
