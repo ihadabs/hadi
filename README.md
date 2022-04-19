@@ -1,6 +1,6 @@
-# Hadi's Website [(click here to open it)](https://hadialbinsaad.com)
+# Hadi's Website [(click here to open it)](https://hadi.gg)
 
-`Hadi`:  I built this website to let people know me more, feel free to use the code as you wish. Please, don't hack my
+`Hadi`: I built this website to let people know me more, feel free to use the code as you wish. Please, don't hack my
 website. The reset is just the Next.js default readme ^^.
 
 ## Getting Started
@@ -28,8 +28,8 @@ as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of Reac
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions
 are welcome!
