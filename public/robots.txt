@@ -3,8 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://hadialbinsaad.com
+Host: https://hadi.gg
 
 # Sitemaps
-Sitemap: https://hadialbinsaad.com/sitemap.xml
-Sitemap: https://hadialbinsaad.com/sitemap-0.xml
+Sitemap: https://hadi.gg/sitemap.xml

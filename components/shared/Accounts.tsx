@@ -1,10 +1,27 @@
-import Account, { IAccount } from './Account';
+import { useEffect, useState } from 'react';
+import Account, { AccountName, IAccount } from './Account';
 
 const accounts: IAccount[] = [
-	{ platform: 'linkedIn', logo: '/accounts/linkedin.svg', link: 'https://linkedin.com/in/hadi-albinsaad' },
-	{ platform: 'gitHub', logo: '/accounts/github.svg', link: 'https://github.com/ihadabs' },
-	{ platform: 'twitter', logo: '/accounts/twitter.svg', link: 'https://twitter.com/i/user/735299448' },
-	{ platform: 'email', logo: '/accounts/email.svg', link: 'mailto:hadi.albinsaad@gmail.com' },
+	{
+		platform: 'linkedIn',
+		logo: '/accounts/linkedin.svg',
+		link: 'https://linkedin.com/in/hadi-albinsaad',
+	},
+	{
+		platform: 'gitHub',
+		logo: '/accounts/github.svg',
+		link: 'https://github.com/ihadabs',
+	},
+	{
+		platform: 'twitter',
+		logo: '/accounts/twitter.svg',
+		link: 'https://twitter.com/i/user/735299448',
+	},
+	{
+		platform: 'email',
+		logo: '/accounts/email.svg',
+		link: 'mailto:hadi.albinsaad@gmail.com',
+	},
 ];
 
 const style = {
@@ -13,10 +30,24 @@ const style = {
 	gridGap: '1rem',
 };
 
-export default function Accounts() {
+export default function Accounts({ showOnly }: { showOnly?: AccountName[] }) {
+	const [showedAccount, setShowedAccounts] = useState(accounts);
+
+	useEffect(() => {
+		if (!showOnly) return;
+
+		const newShowedAccounts = accounts.filter((account) =>
+			showOnly.includes(account.platform)
+		);
+
+		setShowedAccounts(newShowedAccounts);
+	}, [showOnly]);
+
 	return (
 		<div style={style}>
-			{accounts.map(account => <Account key={account.platform} account={account}/>)}
+			{showedAccount.map((account) => (
+				<Account key={account.platform} account={account} />
+			))}
 		</div>
 	);
 }
