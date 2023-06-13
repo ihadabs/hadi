@@ -41,9 +41,7 @@ module.exports = {
 			lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
 			alternateRefs:
 				config.alternateRefs.map((alternate) => {
-					let url = (alternate.href + path)
-						.replace('ar/en', 'ar')
-						.replace('en/en', 'en');
+					let url = (alternate.href + path).replace('ar/en', 'ar').replace('en/en', 'en');
 
 					// remove trailing slash
 					if (url.endsWith('/')) {

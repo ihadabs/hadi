@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
+import Link from 'next/link';
 
 export interface INavItem {
 	emoji: string;
@@ -11,8 +11,10 @@ export default function NavItem({ item: { emoji, title, href } }: { item: INavIt
 	const { t } = useTranslation('common');
 
 	return (
-		<Link href={href}>
-			<a className="hoverable noWrap">{t(title)}&ensp;{emoji}</a>
+		<Link href={href} legacyBehavior>
+			<a className='hoverable noWrap'>
+				{t(title)}&ensp;{emoji}
+			</a>
 		</Link>
 	);
 }
